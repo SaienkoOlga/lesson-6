@@ -17,33 +17,32 @@ body {
   line-height: 58px;
 }
 .section-subtitle {
+  margin: 0px;
   color: #000000;
   font-size: 32px;
   line-height: 38px;
-  margin: 0;
 }
 .logo-image {
+  margin-top: 24px;
+  margin-bottom: 24px;
   display: inline-block;
   vertical-align: middle;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 165px;
-  padding-right: 79px;
-  font-size: 0px;
 }
 .navigation {
   display: inline-block;
-  vertical-align: middle;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
 }
 .nav-item {
+  margin-right: 21px;
   display: inline-block;
-  margin-left: 40px;
-  padding-right: 21px;
+}
+.nav-link {
+  color: black;
   text-decoration-line: none;
 }
+/* HERO */
 .hero {
   background-color: #d52047;
 }
@@ -61,8 +60,9 @@ body {
 }
 /* ABOUT */
 .about {
-  padding: 95px 0 80px;
-  margin: 0px;
+  padding: 95px 165px 80px 165px;
+  margin-bottom: 80px;
+  margin-top: 0px;
   background-color: #eff8f6;
 }
 
@@ -74,73 +74,74 @@ body {
   background-color: #e5e5e5;
   padding: 24px;
   width: 50%;
-  height: 342px;
+  height: 348px;
   display: inline-block;
   border-radius: 9px 0px 0px 9px;
   vertical-align: top;
 }
+
 .about-description {
-  margin-top: 24px;
   font-size: 24px;
   line-height: 29px;
 }
 .about-image {
   display: inline-block;
   width: 50%;
+  height: 348px;
   border-radius: 0px 9px 9px 0px;
   vertical-align: top;
 }
 /* FEATURES */
 .fetures {
-  padding: ;
+  padding: 80px 165px 80px 165px;
 }
-.features-content {
-  padding-top: 178px;
-  padding-bottom: 80px;
-  padding-left: 165px;
-  padding-right: 165px;
+.card-list {
+  margin-top: 40px;
+  padding: 0px;
+  font-size: 0px;
 }
 .card {
   display: inline-block;
   width: 322px;
   height: 409px;
-  padding-right: 72px;
+  padding: 24px;
+  margin-right: 72px;
   border: solid;
   border-width: 2px;
   border-color: #e5e5e5;
   border-radius: 8px;
+  font-size: 16px;
 }
+.card:last-child {
+  margin-right: 0px;
+}
+
 .card-description {
-  padding-left: 24px;
   font-size: 16px;
   line-height: 19px;
 }
 .features-image {
-  padding: 24px;
+  width: 100%;
 }
 .features-link {
   color: #d52047;
-  padding: 24px;
 }
 /* FOOTER */
 .footer {
   background-color: #f9f7e8;
+  padding: 32px 635px 32px 650px;
 }
 .copyright {
-  padding-top: 32px;
-  padding-bottom: 24px;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
 }
 .ikons {
-  margin: 0;
+  margin-top: 24px;
   list-style: none;
-  padding-top: 24px;
   text-align: center;
 }
 .ikons-item {
   display: inline-block;
   padding-right: 16px;
-  margin: 0px;
 }
